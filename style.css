@@ -80,7 +80,7 @@ div > img {
 }
 
 .grey_background {
-  opacity: 0.9;
+  opacity: 0.97;
   margin-bottom: -4px;
   /* z-index: 2; */
 }
@@ -91,14 +91,24 @@ div > div > div > div {
   width: 248px;
   height:97px;
   font-size: 13px;
-  padding: 10px;
+  padding: 14px 5px 10px 14px;
+  line-height: 1;
   /* background-color: blueviolet; */
 }
 div > div > div > div > span {
   float: left;
-  }
-  div > div > div > div > span > a{
-
+}
+div > div > div > div > span > a{
   color:white;
+  padding: 1px;
+}
+div > div > div > div > h3{
+  margin: 3px 0px 4px 0px;
+  font-size: 14px;
+}
+div > div > div > div > span > a:hover{
+  color: #005da2;
+}
+div > div > div > div > span > a:hover, .read_more_white {
   
-  }
+}
