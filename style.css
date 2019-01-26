@@ -45,15 +45,15 @@ footer {
   border-radius: 0 0 20px 0;
 }
 
-.box_1 {
+#box_1 {
   margin: 0 5px;
 }
 
-.box_2 {
+#box_2 {
   margin: 0 4px;
 }
 
-.box_3 {
+#box_3 {
   margin: 0 5px;
 }
 
@@ -63,13 +63,12 @@ footer {
   display: inline-block;
   position: relative;
   border-radius: 0 20px 0 0;
-  /* background-color: green; */
-  margin: 0 4px;
+   margin: 0 4px;
   margin-top: 16px;
   background-image:url("images/small_cube_bg.png");
 }
 
-.inner_text {
+.inner_text_Up {
   position: absolute;
   bottom: 6px;
   right: 6px;
@@ -82,7 +81,7 @@ footer {
   margin-bottom: -4px;
 }
 
-div > div > div > div {
+.inner_text_Up div {
   position: absolute  ;
   bottom: 6px;
   right: 6px;
@@ -91,51 +90,29 @@ div > div > div > div {
   font-size: 13px;
   padding: 14px 5px 10px 14px;
   /* background-color: blueviolet; */
-}
+  }
+  .inner_text_Up div  h3{
+    margin: 3px 0px 4px 0px;
+    font-size: 14px;
+  }
 
-div > div > div > div > span {
-  float: left;
+  /* -----hiperlink read more-----white to blue---- */
+.upper span{
+  background: url(images/read_more_white.png) no-repeat left bottom;
+  float: left
 }
-
-div > div > div > div > span > a{
+.upper span a{
   color:white;
-  padding: 1px;
+  padding-left: 12px;
 }
-
-div > div > div > div > h3{
-  margin: 3px 0px 4px 0px;
-  font-size: 14px;
-}
-
-div > div > div > div > span > a:hover{
+.upper span a:hover{
   color: #005da2;
 }
-
-/* div > div > div > div > span > a:hover, .read_more_white {
-  src: rgba(0, 89, 255, 0.466);
-} */
-
-.info > span > a{
-  /* color: #72716d; */
-  float:left;
-  font-size: 13px;
-  }
-.info h3{
-  color: #575757;
-  font-size: 14px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 24px;
+.upper span:hover{
+  background: url(images/read_more_blue.png) no-repeat left bottom;
 }
-.info a {
-  padding-top: 15px;
-  padding-left: 7px;
-  color: #72716d;
-  font-size: 13px;
-  }
-.info a:hover{
-  color: #005da2;
-}
+/* ------------------------- */
+
 .info{
   position: absolute;
   top:0;
@@ -145,45 +122,103 @@ div > div > div > div > span > a:hover{
   /* background: red; */
   padding-right: 26px;
   }
-#map{
-  float: left;
-  margin: -9px -15px 12px 8px;
+
+.info a {
+padding-top: 18px;
+padding-left: 12px;
+color: #72716d;
+font-size: 13px;
 }
+.left{
+float:left;
+display: block;
+}
+
+  /* -----hiperlink read more-----yellow to blue---- */
+.lower span{
+  background: url(images/read_more_yellow.png) no-repeat left bottom;
+ }
+.lower span a:hover{
+  color: #005da2;
+}
+.lower span:hover{
+  background: url(images/read_more_blue.png) no-repeat left bottom;
+}
+/* ------------------------- */
+#align{
+  padding-left: 17px;
+}
+
+
+
 .info ul{
   list-style: none;
   padding: 0;
   line-height: 1.35;
   margin: 3px -2px 0 0;
+  }
+
+.info h3{
+  color: #575757;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 24px;
 }
-.nav_active_footer{
+
+#map{
+  float: left;
+  margin: -9px -15px 12px 8px;
+}
+
+/*---------- nav bars ------------ */
+
+.nav_active {
   position:relative;
-  bottom:0px;
   width: 900px;
   margin: auto;
-  margin-top: 16px;
-/* background-color: aquamarine; */
+  /* background-color: aquamarine; */
 }
+.nav_active ul{
+  padding: 0;
+}
+.nav_active li{
+  display: inline;
+}
+.nav_active a{
+  color: white;
+  text-decoration: none;
+}
+.nav_active a:hover{
+  color:#005da2;
+  text-decoration: underline;
+}
+/* ---footer specific nav bar--------- */
+footer .nav_active {
+  padding-top: 16px;
+}
+footer .nav_active a{
+  font-size: 14px;
+  padding: 1px;
+}
+
 #face{
   margin: -4px 0px;
   bottom: 2px;
   padding: 0;
   }
-.nav_active_footer ul{
-  padding: 0;
-}
-.nav_active_footer li{
-  display: inline;
-}
-.nav_active_footer a{
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  padding: 1px;
-}
+
 a.red{
   color: red;
 }
-.nav_active_footer a:hover{
-  color:#005da2;
-  text-decoration: underline;
+
+/* ------header specific nav bars----- */
+header .nav_active {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#logo{
+  position: relative;
+  top: 37px;
 }
