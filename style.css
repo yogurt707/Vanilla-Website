@@ -91,10 +91,10 @@ footer {
   padding: 14px 5px 10px 14px;
   /* background-color: blueviolet; */
   }
-  .inner_text_Up div  h3{
-    margin: 3px 0px 4px 0px;
-    font-size: 14px;
-  }
+.inner_text_Up div  h3{
+  margin: 3px 0px 4px 0px;
+  font-size: 14px;
+ }
 
   /* -----hiperlink read more-----white to blue---- */
 .upper span{
@@ -124,14 +124,14 @@ footer {
   }
 
 .info a {
-padding-top: 18px;
-padding-left: 12px;
-color: #72716d;
-font-size: 13px;
+  padding-top: 18px;
+  padding-left: 12px;
+  color: #72716d;
+  font-size: 13px;
 }
-.left{
-float:left;
-display: block;
+  .left{
+  float:left;
+  display: block;
 }
 
   /* -----hiperlink read more-----yellow to blue---- */
@@ -148,8 +148,6 @@ display: block;
 #align{
   padding-left: 17px;
 }
-
-
 
 .info ul{
   list-style: none;
