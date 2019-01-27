@@ -7,7 +7,7 @@ body {
   direction: rtl;
   text-align: right;
   color: white;
-  font-family: 'Arial (Hebrew)', Arial;
+  font-family: 'Arial (Hebrew)', Arial, Helvetica, sans-serif;
   line-height: 1;
 }
 
@@ -271,4 +271,31 @@ header .nav_active {
 .dropdown-content > ul > li > a:hover  {
   background-color: rgb(188, 188, 188);
   /* display: block; */
+}
+
+.search-bar{
+  position: absolute;
+  top: 28px;
+  left: 0px;
+  border: 0px;
+}
+.search-bar > a > img {
+  float: left;
+}
+
+#languge{
+font-size: 12px;
+font-weight: bold;
+color: white;
+padding-left: 16px;
+margin-top: 3px;
+}
+.search-bar > input{
+  text-align: right;
+  float: left;
+  width: 135px;
+  border: 0px;
+  margin: 1px;
+  padding-right: 2px;
+  border-top-right-radius: 8px;
 }
